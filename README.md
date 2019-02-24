@@ -6,3 +6,5 @@ A typical todo list from scratch, full-stack with React, Redux, Thunk
 This is a step-by-step walkthrough of my thought process in building this web-app.
 
 - Starting with creating loading dev dependencies
+- Add knex migration tables with dummy seed data
+
