@@ -23,3 +23,4 @@ This is a step-by-step walkthrough of my thought process in building this web-ap
 3. Basic database function and back end routes done for `getAllTodos`
 4. Front end routes, actions and reducers to render todos on Home page
 5. Deploy to Heroku
+6. Configure and write db and routes tests
