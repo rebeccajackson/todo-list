@@ -6,13 +6,16 @@ A typical todo list from scratch, full-stack with React, Redux, Thunk
 This is a step-by-step walkthrough of my thought process in building this web-app.
 
 1 Starting with creating loading dev dependencies
-  - `mkdir` server - routes
-                   - db
-            client - actions
-                   - reducers
-                   - components
-                   - containers
-                   - index.js
+  - server: 
+    - routes
+    - db
+  - client:
+    - actions
+    - reducers
+    - components
+    - containers
+    - index.js
+  - test
   - `yarn add` dependencies and devDependencies
   - config webpack
   - `.gitignore` node_modules and other files
