@@ -19,5 +19,7 @@ This is a step-by-step walkthrough of my thought process in building this web-ap
   - `yarn add` dependencies and devDependencies
   - config webpack
   - `.gitignore` node_modules and other files
+  
 2 Add knex migration tables with dummy seed data
+
 3 Basic database function and back end routes done for `getAllTodos`
