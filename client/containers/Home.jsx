@@ -6,12 +6,11 @@ import { getAllTodos } from '../api/todos'
 export class Home extends React.Component {
 
   componentDidMount(){
-    this.props.dispatch(getAllTodos())
+    this.props.getAllTodos()
   }
   
   render(){
     const { todos } = this.props
-    todos.map(todo => { console.log('i repeat', todo)})
     return (
       <div className='homepage'>
         <h1>Todo List</h1>
@@ -31,4 +30,8 @@ const mapStateToProps = ({ todos }) => {
   return { todos }
 }
 
-export default connect(mapStateToProps)(Home)
+const mapDispatchToProps = dispatch => {
+  return {getAllTodos: dispatch(getAllTodos())}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home)
