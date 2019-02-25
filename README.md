@@ -7,4 +7,4 @@ This is a step-by-step walkthrough of my thought process in building this web-ap
 
 - Starting with creating loading dev dependencies
 - Add knex migration tables with dummy seed data
-
+- Basic database function and back end routes done for `getAllTodos`
