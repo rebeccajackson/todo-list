@@ -9,10 +9,10 @@
   "scripts": {
     "dev": "nodemon server --watch",
     "server": "node server",
-    "start": "nodemon server",
+    "start": "node server",
     "test": "jest --watchAll",
-    "postinstall": "webpack",
-    "win": "webpack --watch"
+    "win": "webpack --watch",
+    "postinstall": "webpack && knex migrate:latest"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
