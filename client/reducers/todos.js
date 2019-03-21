@@ -9,3 +9,13 @@ export function todos (state = initialState, action){
       return state
   }
 }
+
+export function showError (state = initialState, action){
+  switch (action.type) {
+    case 'SHOW_ERROR':
+      return action.errMessage
+      
+    default:
+      return state
+  }
+}
